@@ -6,7 +6,7 @@ These are **neccessary** to *any* Pascal application to even work, so if you're 
 
 ## .ico
 
-Basically, just an icon. You can exclude it, if you plan to use our manifest.
+Basically, just an icon. You can exclude it, if you plan to use our .res file.
 
 ## .lpi, lpr, lps
 
