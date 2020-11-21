@@ -4,7 +4,7 @@
 
 JustPad is a very simple text editor written in Free Pascal.
 
-**To install JustPad, go to the "Releases" section on the right side of the page and then click on the** *JustPad_X.X.exe* **(where X.X is version)**
+**To install JustPad, go to the "Releases" section/tab on the right side of the page and then click on the** *JustPad_X.X.exe* **(where X.X is version)**
 
 ---
 
@@ -12,4 +12,4 @@ JustPad is a very simple text editor written in Free Pascal.
 
 JustPad - это очень простой текстовый редактор написанный на Free Pascal.
 
-**Чтобы установить его, нажмите "Releases" в правой части страницы, затем нажмите на** *JustPad_X.X.exe* **(где X.X - это версия)**
+**Чтобы установить JustPad, нажмите "Releases" в правой части страницы, затем нажмите на** *JustPad_X.X.exe* **(где X.X - это версия)**
