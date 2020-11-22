@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 100
-  Height = 431
-  Top = 100
-  Width = 686
-  Caption = 'JustPad 1.2'
-  ClientHeight = 411
-  ClientWidth = 686
+  Left = 307
+  Height = 687
+  Top = 177
+  Width = 1107
+  Caption = 'JustPad 1.2.1'
+  ClientHeight = 667
+  ClientWidth = 1107
   Icon.Data = {
     B64E00000000010001000000000001002000A04E00001600000089504E470D0A
     1A0A0000000D49484452000001000000010008060000005C72A86600004E6749
@@ -639,13 +639,14 @@ object Form1: TForm1
     1932ACC7FF03EC092F1055F1A9A90000000049454E44AE426082
   }
   Menu = MainMenu1
+  OnCreate = FormCreate
   OnShow = FormShow
-  LCLVersion = '2.0.4.0'
+  LCLVersion = '2.0.10.0'
   object Memo1: TMemo
     Left = 0
-    Height = 388
+    Height = 644
     Top = 0
-    Width = 686
+    Width = 1107
     Align = alClient
     HideSelection = False
     OnChange = Memo1Change
@@ -658,8 +659,8 @@ object Form1: TForm1
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
-    Top = 388
-    Width = 686
+    Top = 644
+    Width = 1107
     Panels = <    
       item
         Bevel = pbNone
@@ -673,7 +674,7 @@ object Form1: TForm1
     SimplePanel = False
   end
   object MainMenu1: TMainMenu
-    left = 616
+    Left = 616
     object MenuItem1: TMenuItem
       Caption = 'File'
       OnClick = MenuItem1Click
@@ -704,12 +705,12 @@ object Form1: TForm1
     object MenuItem9: TMenuItem
       Caption = 'Tools'
       object MenuItem10: TMenuItem
-        Caption = 'Settings...'
+        Caption = 'Settings'
         ShortCut = 16464
         OnClick = MenuItem10Click
       end
       object MenuItem11: TMenuItem
-        Caption = 'Calculator...'
+        Caption = 'Calculator'
         ShortCut = 24643
         OnClick = MenuItem11Click
       end
@@ -717,14 +718,14 @@ object Form1: TForm1
         Caption = '-'
       end
       object MenuItem12: TMenuItem
-        Caption = 'Load preset of...'
+        Caption = 'Load preset for...'
         object MenuItem14: TMenuItem
           Caption = 'HTML Document'
           ShortCut = 24648
           OnClick = MenuItem14Click
         end
         object MenuItem15: TMenuItem
-          Caption = 'BAT Script'
+          Caption = 'Batch Script'
           ShortCut = 24642
           OnClick = MenuItem15Click
         end
@@ -743,7 +744,7 @@ object Form1: TForm1
     object MenuItem3: TMenuItem
       Caption = 'About'
       object MenuItem2: TMenuItem
-        Caption = 'About this program...'
+        Caption = 'About JustPad'
         ShortCut = 112
         OnClick = MenuItem2Click
       end
@@ -751,12 +752,11 @@ object Form1: TForm1
   end
   object OpenDialog1: TOpenDialog
     OnClose = OpenDialog1Close
-    Title = 'Open | JustPad 1.2'
-    left = 568
+    Title = 'Open'
+    Left = 568
   end
   object CalculatorDialog1: TCalculatorDialog
-    Title = 'Calculator | JustPad 1.2'
-    Value = 0
+    Title = 'Calculator'
     ColorBtnDigits = clBlack
     ColorBtnMemory = clNavy
     ColorBtnOk = clGreen
@@ -765,11 +765,11 @@ object Form1: TForm1
     ColorBtnOthers = clBlack
     ColorDisplayText = clBlack
     ColorDisplayBack = clWhite
-    left = 504
+    Left = 504
   end
   object SaveDialog1: TSaveDialog
     OnClose = SaveDialog1Close
-    Title = 'Save file as | JustPad 1.2'
-    left = 448
+    Title = 'Save file as'
+    Left = 448
   end
 end

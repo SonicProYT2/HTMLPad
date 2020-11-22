@@ -37,6 +37,7 @@ type
     SaveDialog1: TSaveDialog;
     StatusBar1: TStatusBar;
 
+    procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure Memo1Change(Sender: TObject);
     procedure Memo1DragDrop(Sender, Source: TObject; X, Y: Integer);
@@ -208,34 +209,35 @@ begin
                MenuItem1.Caption:= 'Файл';
       MenuItem4.Caption:='Відкрити';
       MenuItem5.Caption:='Зберегти';
-      MenuItem6.Caption:='Зберегти як...';
+      MenuItem6.Caption:='Зберегти як';
       MenuItem8.Caption:='Закрити';
       MenuItem9.Caption:='Інструменти';
       MenuItem10.Caption:='Налаштування';
       MenuItem11.Caption:='Калькулятор';
       MenuItem3.Caption:='Про програму';
-      MenuItem2.Caption:='Про програму';
-      CalculatorDialog1.Title:='Калькулятор | JustPad 1.2';
-      SaveDialog1.Title := 'Зберегти файл як | JustPad 1.2';
-      OpenDialog1.Title:='Відкрити файл | JustPad 1.2';
+      MenuItem2.Caption:='Про JustPad';
+      CalculatorDialog1.Title:='Калькулятор';
+      SaveDialog1.Title := 'Зберегти файл як ';
+      OpenDialog1.Title:='Відкрити файл';
 
       Form2.CheckBox1.Caption:='Перенесення рядків';
       Form2.Button1.Caption:='Шрифт';
       Form2.Button3.Caption:='Колір фону';
-      Form2.FontDialog1.title:='Шрифт | JustPad 1.2';
-      Form2.ColorDialog1.title:='Колір фону | JustPad 1.2';
+      Form2.FontDialog1.title:='Шрифт ';
+      Form2.ColorDialog1.title:='Колір фону';
       Form2.Button3.Caption:='Колір фону';
       Form2.Label1.Caption:='Для зміни мови'+#13+'перезавантажте JustPad.';
       Form2.Caption:='Налаштування';
 
-      MenuItem12.Caption:='Завантажити пресет для...';
+      MenuItem12.Caption:='Завантажити шаблон для...';
       MenuItem14.Caption:='Документа HTML';
-      MenuItem15.Caption:='Скрипта BAT';
-      MenuItem16.Caption:='Вихідного коду Pascal';
+      MenuItem15.Caption:='Скрипта Batch';
+      MenuItem16.Caption:='Файлу вихідного коду Pascal';
 
       StatusBar1.Panels.Items[0].Text:='Кількість символів:';
       StatusBar1.Panels.Items[0].Width:=110;
-      Form4.Label2.Caption:='JustPad - це дуже простий текстовий редактор написаний на Free Pascal.'+#13+#13+'Зробив KATAR'+#13+'Мій сайт: https://katar7.do.am/'+#13+'Мій профіль на GitHub: https://github.com/KATAR-github/'+#13+#13+'Дата складання: 12.11.2020';
+      Form4.Caption:='Про JustPad';
+      Form4.Label2.Caption:='JustPad - це дуже простий текстовий редактор написаний на Free Pascal.'+#13+#13+'Зробив KATAR'+#13+'Мій сайт: https://katar7.do.am/'+#13+'Репозиторій на GitHub: https://github.com/KATAR-github/'#10#13'Мій Discord:SHCHEGLAKOF#4920'+#13+#13+'Дата складання: 12.11.2020';
              end;
          //конец установки украинского
 
@@ -246,38 +248,39 @@ begin
       MenuItem1.Caption:= 'Файл';
       MenuItem4.Caption:='Открыть';
       MenuItem5.Caption:='Сохранить';
-      MenuItem6.Caption:='Сохранить как...';
+      MenuItem6.Caption:='Сохранить как';
       MenuItem8.Caption:='Закрыть';
       MenuItem9.Caption:='Инструменты';
       MenuItem10.Caption:='Настройки';
       MenuItem11.Caption:='Калькулятор';
       MenuItem3.Caption:='О программе';
-      MenuItem2.Caption:='О программе';
-      MenuItem12.Caption:='Загрузить пресет для...';
+      MenuItem2.Caption:='О JustPad';
+      MenuItem12.Caption:='Загрузить шаблон для...';
       MenuItem14.Caption:='Документа HTML';
-      MenuItem15.Caption:='Скрипта BAT';
-      MenuItem16.Caption:='Исходного кода Pascal';
-      CalculatorDialog1.Title:='Калькулятор | JustPad 1.2';
-      SaveDialog1.Title := 'Сохранить файл как | JustPad 1.2';
-      OpenDialog1.Title:='Открыть файл | JustPad 1.2';
+      MenuItem15.Caption:='Скрипта Batch';
+      MenuItem16.Caption:='Файла исходного кода Pascal';
+      CalculatorDialog1.Title:='Калькулятор';
+      SaveDialog1.Title := 'Сохранить файл как';
+      OpenDialog1.Title:='Открыть файл';
 
       Form2.CheckBox1.Caption:='Перенос строк';
       Form2.Button1.Caption:='Шрифт';
       Form2.Button3.Caption:='Цвет фона';
-      Form2.FontDialog1.title:='Шрифт | JustPad 1.2';
-      Form2.ColorDialog1.title:='Цвет фона | JustPad 1.2';
+      Form2.FontDialog1.title:='Шрифт';
+      Form2.ColorDialog1.title:='Цвет фона';
       Form2.Button3.Caption:='Цвет фона';
       Form2.Label1.Caption:='Для смены языка'+#13+'перезагрузите JustPad.';
       StatusBar1.Panels.Items[0].Text:='Количество символов:';
       StatusBar1.Panels.Items[0].Width:=130;
       Form2.Caption:='Настройки';
-      Form4.Label2.Caption:='JustPad - это очень простой текстовый редактор написанный на Free Pascal.'+#13+#13+'Сделал KATAR'+#13+'Мой сайт: https://katar7.do.am/'+#13+'Мой профиль на GitHub: https://github.com/KATAR-github/'+#13+#13+'Дата сборки: 12.11.2020';
+      Form4.Caption:='О JustPad';
+      Form4.Label2.Caption:='JustPad - очень простой текстовый редактор написанный на Free Pascal.'+#13+#13+'Разаработал KATAR'+#13+'Мой сайт: https://katar7.do.am/'+#13+'Репозиторий на GitHub: https://github.com/KATAR-github/JustPad'#10#13'Мой DIscord: SHCHEGLAKOF#4920'+#13+#13+'Дата сборки: 12.11.2020';
       //установка русского окончена
             end
          else
             begin
 
-
+        //к середине 5 класса может будет китайский
             end;
       end
         else
@@ -314,8 +317,13 @@ begin
      begin
       memo1.lines.loadfromfile(paramstr(1));
       editableFile:=ParamStr(1);
-      form1.Caption:=ParamStr(1)+' | JustPad 1.2';
+      form1.Caption:=ParamStr(1)+' | JustPad 1.2.1';
      end;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+
 end;
 
 
@@ -346,7 +354,7 @@ begin
      begin
        editableFile:= OpenDialog1.FileName;
        Memo1.Lines.LoadFromFile(editableFile);
-       Form1.Caption:=editableFile + ' | JustPad 1.2';
+       Form1.Caption:=editableFile + ' | JustPad 1.2.1';
      end;
 end;
 
@@ -358,7 +366,7 @@ begin
      begin
        editableFile:= SaveDialog1.FileName;
        Memo1.Lines.SaveToFile(editableFile);
-       Form1.Caption:=editableFile + ' | JustPad 1.2';
+       Form1.Caption:=editableFile + ' | JustPad 1.2.1';
      end;
   end
   else
@@ -373,7 +381,7 @@ begin
      begin
        editableFile:= SaveDialog1.FileName;
        Memo1.Lines.SaveToFile(editableFile);
-       Form1.Caption:=editableFile + ' | JustPad 1.2';
+       Form1.Caption:=editableFile + ' | JustPad 1.2.1';
      end;
 end;
 
