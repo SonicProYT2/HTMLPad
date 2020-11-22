@@ -17,10 +17,6 @@ These are *Lazarus project files*. If you don't use that, feel free to exclude t
 No matter on what IDE you are, these keep an icon, a manifest (yeah, I don't know what that thing means either lol), and some basic application info.
 It's *not neccessary*, but *isn't unneccessary* either. That's your choice.
 
-## lib folder
-
-Just libraries. **OF COURSE** it's neccessary!
-
 # [ru] Что эти файлы делают????/?!1!!1
 
 ## .pas и .fm файлы
@@ -34,6 +30,3 @@ Just libraries. **OF COURSE** it's neccessary!
 
 ## .res
 Независимо от того, какая у вас IDE, они содержат значок, манифест (да, я тоже не знаю, что это значит лол) и некоторую базовую информацию о приложении. Это *не обязательно*, но и *не лишнее*. Это ваш выбор.
-
-## Папка "lib"
-Содержит библиотеки, которые необходимы для работы исполняемого файла. **НУ КОНЕЧНО ЖЕ ИХ НЕЛЬЗЯ УБИРАТЬ!**
