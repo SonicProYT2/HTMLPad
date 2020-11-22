@@ -1,4 +1,4 @@
-program project;
+program JustPad;
 
 {$mode objfpc}{$H+}
 
