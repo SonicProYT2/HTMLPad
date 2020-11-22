@@ -1,6 +1,6 @@
-## JustPad
+# JustPad
 
-[en] The latest version is 1.2
+## [en] The latest version is 1.2.5
 
 JustPad is a very simple text editor written in Free Pascal.
 
@@ -8,7 +8,7 @@ JustPad is a very simple text editor written in Free Pascal.
 
 ---
 
-[ru] Последняя версия - 1.2
+## [ru] Последняя версия - 1.2.5
 
 JustPad - это очень простой текстовый редактор написанный на Free Pascal.
 
