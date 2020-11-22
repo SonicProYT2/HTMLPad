@@ -17,7 +17,7 @@ object Form5: TForm5
     Height = 45
     Top = 8
     Width = 192
-    Caption = 'Please, select your language'#13#10'Пожалуйста, выберите ваш язык'#13#10'Будь ласка, клацніть на вашій мові'
+    Caption = 'Language / Язык / Мова'#13#10
     ParentColor = False
   end
   object Image1: TImage

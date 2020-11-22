@@ -52,7 +52,7 @@ object Form2: TForm2
     Width = 171
     Align = alCustom
     Anchors = [akTop, akLeft, akRight]
-    Caption = 'To change the language'#13#10'you need to restart'#13#10'JustPad'
+    Caption = 'To change the language, '#13#10'restart JustPad'
     ParentColor = False
   end
   object GroupBox1: TGroupBox
