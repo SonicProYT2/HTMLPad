@@ -704,12 +704,12 @@ object Form1: TForm1
     object MenuItem9: TMenuItem
       Caption = 'Tools'
       object MenuItem10: TMenuItem
-        Caption = 'Settings...'
+        Caption = 'Settings'
         ShortCut = 16464
         OnClick = MenuItem10Click
       end
       object MenuItem11: TMenuItem
-        Caption = 'Calculator...'
+        Caption = 'Calculator'
         ShortCut = 24643
         OnClick = MenuItem11Click
       end
@@ -717,14 +717,14 @@ object Form1: TForm1
         Caption = '-'
       end
       object MenuItem12: TMenuItem
-        Caption = 'Load preset of...'
+        Caption = 'Load preset for...'
         object MenuItem14: TMenuItem
           Caption = 'HTML Document'
           ShortCut = 24648
           OnClick = MenuItem14Click
         end
         object MenuItem15: TMenuItem
-          Caption = 'BAT Script'
+          Caption = 'Batch Script'
           ShortCut = 24642
           OnClick = MenuItem15Click
         end
@@ -743,7 +743,7 @@ object Form1: TForm1
     object MenuItem3: TMenuItem
       Caption = 'About'
       object MenuItem2: TMenuItem
-        Caption = 'About this program...'
+        Caption = 'About JustPad'
         ShortCut = 112
         OnClick = MenuItem2Click
       end
