@@ -708,7 +708,7 @@ object Form4: TForm4
     Width = 458
     Alignment = taCenter
     AutoSize = False
-    Caption = 'JustPad 1.2'
+    Caption = 'JustPad 1.2.1'
     Font.CharSet = RUSSIAN_CHARSET
     Font.Color = clBlack
     Font.Height = -24
@@ -725,7 +725,7 @@ object Form4: TForm4
     Width = 458
     Alignment = taCenter
     AutoSize = False
-    Caption = 'JustPad - is a very simple text editor written on Free Pascal.'#13#10#13#10'Created by KATAR'#13#10'My website: https://katar7.do.am/'#13#10'My GitHub: https://github.com/KATAR-github/'#13#10#13#10'Build date: 11/12/2020'
+    Caption = 'JustPad is a very simple text editor written on Free Pascal.'#13#10#13#10'Created by KATAR'#13#10'My website: https://katar7.do.am/'#13#10'GitHub repo: https://github.com/KATAR-github/JustPad/'#13#10'My Discord: SHCHEGLAKOF#4920'#13#10#13#10'Build date: 11/12/2020'
     ParentColor = False
   end
 end
