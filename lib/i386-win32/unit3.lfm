@@ -1,9 +1,0 @@
-object Form3: TForm3
-  Left = 107
-  Height = 240
-  Top = 120
-  Width = 320
-  BorderIcons = []
-  Caption = 'Language | Язык'
-  LCLVersion = '2.0.4.0'
-end
