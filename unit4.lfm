@@ -1,15 +1,16 @@
 object Form4: TForm4
-  Left = 100
-  Height = 297
-  Top = 100
+  Left = 623
+  Height = 275
+  Top = 376
   Width = 458
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
-  Caption = 'JustPad 1.2'
-  ClientHeight = 297
+  Caption = 'About JustPad'
+  ClientHeight = 275
   ClientWidth = 458
+  OnCreate = FormCreate
   ShowInTaskBar = stNever
-  LCLVersion = '2.0.4.0'
+  LCLVersion = '2.0.10.0'
   object Image1: TImage
     Left = 168
     Height = 120

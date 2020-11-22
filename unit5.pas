@@ -23,6 +23,7 @@ type
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: char);
+    procedure Label1Click(Sender: TObject);
   private
 
   public
@@ -51,6 +52,11 @@ end;
 procedure TForm5.FormKeyPress(Sender: TObject; var Key: char);
 begin
   If (key=#13) then Button3Click(Sender);
+end;
+
+procedure TForm5.Label1Click(Sender: TObject);
+begin
+
 end;
 
 procedure TForm5.Button1Click(Sender: TObject);

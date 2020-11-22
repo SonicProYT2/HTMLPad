@@ -1,29 +1,31 @@
 object Form5: TForm5
-  Left = 100
-  Height = 161
-  Top = 100
+  Left = 713
+  Height = 119
+  Top = 227
   Width = 210
   BorderIcons = []
   BorderStyle = bsSingle
-  ClientHeight = 161
+  Caption = 'JustPad First-Time Setup'
+  ClientHeight = 119
   ClientWidth = 210
   KeyPreview = True
   OnClose = FormClose
   OnCreate = FormCreate
   OnKeyPress = FormKeyPress
-  LCLVersion = '2.0.4.0'
+  LCLVersion = '2.0.10.0'
   object Label1: TLabel
-    Left = 8
-    Height = 45
+    Left = 40
+    Height = 30
     Top = 8
-    Width = 192
+    Width = 131
     Caption = 'Language / Язык / Мова'#13#10
     ParentColor = False
+    OnClick = Label1Click
   end
   object Image1: TImage
     Left = 32
     Height = 50
-    Top = 96
+    Top = 64
     Width = 50
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869632455000089504E47
@@ -712,10 +714,10 @@ object Form5: TForm5
     Stretch = True
   end
   object Label2: TLabel
-    Left = 94
+    Left = 96
     Height = 32
-    Top = 104
-    Width = 80
+    Top = 72
+    Width = 79
     Caption = 'JustPad'
     Font.CharSet = RUSSIAN_CHARSET
     Font.Color = clBlack
@@ -729,7 +731,7 @@ object Form5: TForm5
   object ComboBox1: TComboBox
     Left = 32
     Height = 23
-    Top = 64
+    Top = 32
     Width = 100
     ItemHeight = 15
     Items.Strings = (
@@ -741,9 +743,9 @@ object Form5: TForm5
     TabOrder = 0
   end
   object Button3: TButton
-    Left = 137
+    Left = 136
     Height = 23
-    Top = 64
+    Top = 32
     Width = 39
     Caption = '&OK'
     OnClick = Button3Click

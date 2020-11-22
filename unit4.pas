@@ -15,6 +15,7 @@ type
     Image1: TImage;
     Label1: TLabel;
     Label2: TLabel;
+    procedure FormCreate(Sender: TObject);
   private
 
   public
@@ -27,6 +28,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TForm4 }
+
+procedure TForm4.FormCreate(Sender: TObject);
+begin
+
+end;
 
 end.
 
