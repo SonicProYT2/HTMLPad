@@ -6,7 +6,7 @@ These are **neccessary** to *any* Pascal application to even work, so if you're 
 
 ## .ico
 
-Basically, just an icon. You can exclude it, if you plan to use our .res file.
+Basically, just an icon. You can exclude it, if you want to use a diffrent icon.
 
 ## .lpi, lpr, lps
 
@@ -23,7 +23,7 @@ It's *not neccessary*, but *isn't unneccessary* either. That's your choice.
 Они **необходимы** для работы *всех* приложений Pascal, так что если вы фильтруете файлы, не трогайте их!
 
 ## .ico
-Тупо иконка. Если вы используете наш .res файл, вам она не нужна.
+Тупо иконка. Если вы будете использовать другую иконку, она вам не нужна.
 
 ## .lpi, .lpr, .lps
 Это файлы проекта для Lazarus. Если у вас другая среда разработки - можете их убирать!
