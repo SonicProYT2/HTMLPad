@@ -228,7 +228,7 @@ begin
       Form2.Label1.Caption:='Для зміни мови'+#13+'перезавантажте JustPad.';
       Form2.Caption:='Налаштування';
 
-      MenuItem12.Caption:='Завантажити пресет для...';
+      MenuItem12.Caption:='Завантажити шаблон для...';
       MenuItem14.Caption:='Документа HTML';
       MenuItem15.Caption:='Скрипта Batch';
       MenuItem16.Caption:='Файлу вихідного коду Pascal';
@@ -253,7 +253,7 @@ begin
       MenuItem11.Caption:='Калькулятор';
       MenuItem3.Caption:='О программе';
       MenuItem2.Caption:='О JustPad';
-      MenuItem12.Caption:='Загрузить пресет для...';
+      MenuItem12.Caption:='Загрузить шаблон для...';
       MenuItem14.Caption:='Документа HTML';
       MenuItem15.Caption:='Скрипта Batch';
       MenuItem16.Caption:='Файла исходного кода Pascal';
