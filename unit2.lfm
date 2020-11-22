@@ -94,7 +94,7 @@ object Form2: TForm2
   end
   object FontDialog1: TFontDialog
     OnClose = FontDialog1Close
-    Title = 'Font | JustPad 1.2'
+    Title = 'Font '
     MinFontSize = 0
     MaxFontSize = 0
     Options = [fdEffects, fdWysiwyg]
@@ -102,7 +102,7 @@ object Form2: TForm2
   end
   object ColorDialog1: TColorDialog
     OnClose = ColorDialog1Close
-    Title = 'Background color | JustPad 1.2'
+    Title = 'Background color'
     Color = clWhite
     CustomColors.Strings = (
       'ColorA=000000'
