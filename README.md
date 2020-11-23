@@ -20,4 +20,4 @@ JustPad - это очень простой текстовый редактор �
 
 ---
 
-Notepad icon made by [Freepik](flaticom.com/authors/freepik)
+Notepad icon made by [Freepik](https://flaticon.com/authors/freepik)
