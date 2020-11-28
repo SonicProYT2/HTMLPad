@@ -6,7 +6,7 @@ JustPad is a very simple text editor written in Free Pascal.
 
 **To install JustPad, go to the "Releases" section/tab on the right side of the page and then click on the** *JustPad_yourplatform* **and run the executable! No installation needed.**<br><br>
 ### !!!WARNING!!!
-**JustPad will create separate configs for language, font family, font size, background color and font color!**
+**JustPad will trigger a SmartScreen warning on Windows! Ignore it if you trust the program. If you don't want to get it, compile the program yourself.**
 
 ---
 
@@ -16,8 +16,4 @@ JustPad - это очень простой текстовый редактор �
 
 **Чтобы установить JustPad, нажмите "Releases" в правой части страницы, затем нажмите на** *JustPad_вашаплатформа* **и запустите исполняемый файл! Установка не требуется.**<br><br>
 ### !!!ВНИМАНИЕ!!!
-**JustPad создаст отдельные конфигурационные файлы для языка, гарнитуры шрифта, размера шрифта, цвета фона и цвета шрифта!**
-
----
-
-Notepad icon made by [Freepik](https://flaticon.com/authors/freepik)
+**JustPad вызовет предупреждение SmartScreen на Windows! Игнорируйте его, если доверяете программе. Если не хотите получить его, скомпилируте программу сами.**
