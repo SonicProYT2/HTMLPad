@@ -49,7 +49,7 @@ type
     procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem16Click(Sender: TObject);
     procedure MenuItem18Click(Sender: TObject);
-    //procedure MenuItem19Click(Sender: TObject);
+    procedure MenuItem19Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem4Click(Sender: TObject);

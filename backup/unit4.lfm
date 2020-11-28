@@ -1,13 +1,13 @@
 object Form4: TForm4
   Left = 731
-  Height = 296
+  Height = 282
   Hint = 'Congrats, you found an easter egg!'
   Top = 418
   Width = 458
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'About JustPad'
-  ClientHeight = 296
+  ClientHeight = 282
   ClientWidth = 458
   OnCreate = FormCreate
   ShowInTaskBar = stNever
@@ -32,7 +32,7 @@ object Form4: TForm4
   object Label2: TLabel
     Left = -6
     Height = 144
-    Top = 136
+    Top = 140
     Width = 458
     Alignment = taCenter
     AutoSize = False
@@ -40,10 +40,10 @@ object Form4: TForm4
     ParentColor = False
   end
   object Button14: TButton
-    Left = 349
-    Height = 29
-    Top = 262
-    Width = 103
+    Left = 166
+    Height = 25
+    Top = 250
+    Width = 131
     Caption = 'Close'
     OnClick = Button1Click
     TabOrder = 0
@@ -523,12 +523,21 @@ object Form4: TForm4
     Stretch = True
   end
   object Button15: TButton
-    Left = 6
-    Height = 28
-    Top = 263
-    Width = 100
+    Left = 9
+    Height = 25
+    Top = 250
+    Width = 99
     Caption = 'License'
     OnClick = Button15Click
     TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 354
+    Height = 25
+    Top = 250
+    Width = 98
+    Caption = 'Icon author'
+    OnClick = Button2Click
+    TabOrder = 2
   end
 end

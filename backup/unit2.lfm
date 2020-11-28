@@ -1,7 +1,7 @@
 object Form2: TForm2
-  Left = 758
+  Left = 902
   Height = 228
-  Top = 190
+  Top = 457
   Width = 171
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
@@ -75,7 +75,6 @@ object Form2: TForm2
     Width = 84
     Caption = 'Light theme'
     Checked = True
-    OnChange = RadioButton1Change
     TabOrder = 3
     TabStop = True
   end
