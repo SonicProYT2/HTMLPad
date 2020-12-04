@@ -21,9 +21,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="55"/>
-        <CursorPos X="7" Y="52"/>
+        <TopLine Value="22"/>
+        <CursorPos X="57" Y="44"/>
         <UsageCount Value="211"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -62,7 +61,7 @@
         <UnitName Value="Unit4"/>
         <EditorIndex Value="10"/>
         <CursorPos X="12" Y="17"/>
-        <UsageCount Value="197"/>
+        <UsageCount Value="338"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -73,9 +72,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit5"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="12"/>
-        <CursorPos X="61" Y="12"/>
-        <UsageCount Value="196"/>
+        <CursorPos X="164" Y="20"/>
+        <UsageCount Value="337"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit5>
@@ -88,7 +88,7 @@
         <UnitName Value="Unit6"/>
         <EditorIndex Value="11"/>
         <CursorPos X="39" Y="5"/>
-        <UsageCount Value="176"/>
+        <UsageCount Value="317"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -100,7 +100,7 @@
         <UnitName Value="Unit7"/>
         <EditorIndex Value="7"/>
         <CursorPos X="11" Y="38"/>
-        <UsageCount Value="168"/>
+        <UsageCount Value="309"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit7>
@@ -112,7 +112,7 @@
         <EditorIndex Value="4"/>
         <TopLine Value="3953"/>
         <CursorPos X="25" Y="3982"/>
-        <UsageCount Value="92"/>
+        <UsageCount Value="162"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit8>
@@ -123,7 +123,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
         <CursorPos X="3" Y="8"/>
-        <UsageCount Value="92"/>
+        <UsageCount Value="162"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit9>
@@ -132,14 +132,14 @@
         <EditorIndex Value="2"/>
         <TopLine Value="50"/>
         <CursorPos X="36" Y="95"/>
-        <UsageCount Value="92"/>
+        <UsageCount Value="162"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit10>
       <Unit11>
         <Filename Value="unit5.lfm"/>
         <EditorIndex Value="3"/>
-        <UsageCount Value="92"/>
+        <UsageCount Value="162"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit11>
@@ -147,7 +147,7 @@
         <Filename Value="unit6.lfm"/>
         <EditorIndex Value="5"/>
         <CursorPos X="2" Y="6"/>
-        <UsageCount Value="85"/>
+        <UsageCount Value="155"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit12>
@@ -156,12 +156,12 @@
         <EditorIndex Value="9"/>
         <TopLine Value="8"/>
         <CursorPos X="26" Y="8"/>
-        <UsageCount Value="84"/>
+        <UsageCount Value="154"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit13>
     </Units>
-    <JumpHistory Count="28" HistoryIndex="27">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
         <Filename Value="unit1.pas"/>
         <Caret Line="282" Column="17" TopLine="252"/>
@@ -274,6 +274,10 @@
         <Filename Value="unit1.lfm"/>
         <Caret Line="3982" Column="25" TopLine="3953"/>
       </Position28>
+      <Position29>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="52" Column="7" TopLine="55"/>
+      </Position29>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
