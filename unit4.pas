@@ -14,10 +14,11 @@ type
   TForm4 = class(TForm)
     Button14: TButton;
     Image1: TImage;
-    Label1: TLabel;
     Label2: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure FormKeyPress(Sender: TObject; var Key: char);
+    procedure Image1Click(Sender: TObject);
   private
 
   public
@@ -34,6 +35,16 @@ implementation
 { TForm4 }
 
 procedure TForm4.FormCreate(Sender: TObject);
+begin
+
+end;
+
+procedure TForm4.FormKeyPress(Sender: TObject; var Key: char);
+begin
+  If (key=#27) then Form4.Close;
+end;
+
+procedure TForm4.Image1Click(Sender: TObject);
 begin
 
 end;

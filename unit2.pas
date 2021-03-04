@@ -66,13 +66,6 @@ begin
     write(languageFile, language);
     CloseFile(languageFile);
   end;
-  If ComboBox1.Caption='Український' then
-  begin
-    language:='UA';
-    Rewrite(languageFile);
-    write(languageFile, language);
-    CloseFile(languageFile);
-  end;
   Form2.close();
 end;
 
