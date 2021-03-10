@@ -1,0 +1,24 @@
+Credits to 2 devs listed earlier (and Google Translate).
+Programming:
+Programming before 1.2.5 - KATAR
+Programming 1.2.5 - egfilin
+Programming early 1.3 - egfilin and KATAR
+Programming reset 1.3 - KATAR
+Programming 1.3.7 - egfilin, using some code from early 1.3 
+which was made by KATAR and using some of his code
+Icon:
+Icon before 1.2.5 - source unknown, and probably even KATAR forgot about it.
+Icon for 1.2.5 and 1.3 - Freepik (yes, we used a loyalty free icon lmao)
+Icon for 1.3.7 and (hopefully) after - KATAR
+Translation:
+Translation for 1.0: Google Translate?
+Translation for 1.1: Russian - KATAR, English - Google Translate
+Translation for 1.2: Russian - KATAR, English, Ukrainan - Google Translate
+Translation for 1.2.5: Russian - KATAR (fixed by egfilin), 
+English - GTranslate (fixed by egfilin) Ukrainan - Google Translate
+Translation for 1.3: Russian - KATAR, fixed by egfilin. English - GTranslate, fixed by egfilin.
+Translation for 1.3.7: Russian - KATAR, fixed by egfilin. English - egfilin.
+Other:
+UI - KATAR and egfilin
+Website - egphilin (wix is the one place where egfiln was taken... by me.)
+Special thanks to you!
