@@ -11,6 +11,10 @@ To start JustPad on Linux, you will need to mark the file as executable in prope
 
 ---
 
+## HTMLPad
+HTMLPad is a mod of JustPad made by KATAR and Egfilin.
+The mod can make you create webpages easier.
+
 ## [ru] Последняя версия - 1.3
 
 JustPad - это очень простой текстовый редактор написанный на Free Pascal.
